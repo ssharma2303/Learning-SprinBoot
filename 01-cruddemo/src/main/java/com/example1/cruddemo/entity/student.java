@@ -26,6 +26,7 @@ public class student {
 	@Column(name="email")
 	private String email;
 	
+	public student() {}
 	//define constructors
 	public student(String firstName, String lastName, String email) {
 		super();
